@@ -12,11 +12,12 @@
     <div class="container">
         <nav>
            <ul>
-                <li><a href="/pubilc/Home.html">Home</a></li> 
-                <li><a href="/pubilc/about.html">About</a></li> 
-                <li><a href="/pubilc/Home.html">Services</a></li> 
-                <li><a href="/pubilc/portfolio.html">Best food</a></li> 
-                <li><a href="/pubilc/contact.html">Contact</a></li> 
+
+                <li><a href="">Home</a></li> 
+                <li><a href="#about">About</a></li> 
+                <li><a href="#services">Services</a></li> 
+                <li><a href="#Project">Project</a></li> 
+                <li><a href="#Contact">Contact</a></li> 
               
                 
             </ul>
@@ -33,102 +34,103 @@
 <!-----about----->
 <div id="about">
     <div class="container">
-        <div class="row">
             <div class="about-col-1">
                 <img src="./Assets/image/download__7_-removebg-preview.png">
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About me</h1>
-                <p>I am chhimi yangzom, i am from momring which is under samdrupjongkhar. but currently staying in phuentsholing. 
-                    we have eight families including myself. I completed grade 12 from Minjiwoong central school which is under samdrupjongkhar. i completed as arts student in the year 
-                    2021 though i am not as much known about the developer but i am very intrested as a web developer. I am exprienced at the field of sersang compuny around a month and as wall done with ict foundation. but i
-                    hope that being a web developer i might be well exprienced</p>
-                   
-        </div>
+            <h2 class="sub-title">ABOUT ME</h2>
+            <p>I am chhimi yangzom, i am from momring which is under samdrupjongkhar. but currently staying in phuentsholing. 
+            we have eight families including myself. I completed grade 12 from Minjiwoong central school which is under samdrupjongkhar. i completed as arts student in the year 
+            2021 though i am not as much known about the developer but i am very intrested as a web developer. I am exprienced at the field of sersang compuny around a month and as wall done with ict foundation. but i
+            hope that being a web developer i might be well exprienced</p> <br>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                <li><span>I had completed ICT foundation at Yonphula for one month.</li> <br>
+                <p class="tab-links" onclick="opentab('Exprience')">EXPERIENCE</p>
+                <li><span>I am experienced at the field of sersang compuny around a month. </li> <br>
+                <p class="tab-links" onclick="opentab('Education')">EDUCATION</p> 
+                <li><span> I completed grade 12 from Minjiwoong central school which is under samdrupjongkhar.</li>
+           
+            </div>
+            <div class="tab-content" id="Exprience">
+                <ul>
+                    
+            </div>
     </div>
+</div>
+
 
 <!----services---->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h2 class="sub-title">MY SREVICES</h2>
         <div class="services-list">
-            <div>
+            <div class="box">
                 <h1>Web application</h1>
-                <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. loren lpsum has been the industry</p>
+                <p> A web application is software that runs in your web browser. Businesses have to exchange information and deliver services remotely. They use web applications to connect with customers conveniently and securely.</p>
                 <a href="#">Read more</a>
             </div>
-            <div>
+            <div class="box">
     
                 <h1>Responsive design</h1>
-                <p>Lorem lpsum is simply dummy text of the printing and typesetting industry, lorem lpsum has been then industry</p>
+                <p>Responsive Design is a design technique that automatically adapts the display of a website page to the size of the screen.</p>
                 <a href="#">Read more</a>
             </div>
-            <div>
-    
+            <div class="box">
                 <h1>Dedicated support</h1>
-                <p>Lorem  lpsum is simply dummy text of the printing and typesetting industry, lorem ipsum has been the industry</p>
+                <p>Dedicated Support means having designated employee(s) or agent(s) of Verity as primary contact for technical support matters relating to the deployment of the Application(s).</p>
                 <a href="#">Read more</a>
             </div>  
         </div>
     </div>
 </div>
-<!------best food---->  
+
+
+<!------Project---->  
 <div id="food">
-    <div class="container">
-        <h1 class="sub-title">Food</h1> 
-        <div class="work-list">
-            <div class="work">
+    <div class="container" id="Project">
+        <h2 class="sub-title">Project</h2> 
+        <div class="box">
                 <img src="./Assets/image/images (6).jpg">   
-                <div class="layer">
                     <h3>Ema datshi</h3>
-                    <P>Ema datshi, the national dish of Bhutan is a deliciousEma Datshi, the national disly spicy stew made of chili peppers, onions and locally produced yak cheese.</p>
-                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-                </div>
-            </div>
-        <div class="work">
+                    <P>Ema datshi is a national dish of Bhutan is a deliciousEma Datshi, the national disly spicy stew made of chili peppers, onions and locally produced yak cheese.</p>
+        </div>
+            
+        <div class="box">
             <img src="./Assets/image/images (5).jpg">
-            <div class="layer">
-                <h2>kewa datshi</h2>
+                <h3>kewa datshi</h3>
                 <P>kewa datshi, literally meaning potatoes and cheese, is a traditional Bhutanese dish made with chiles and garlic that is a vegetarian stew.</p>
-                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+
             </div>
-        </div>
-        <div class="work">
-            <img src="./Assets/image/download (8).jpg">
-            <div class="layer">
-                <h2>Chicken Chili</h2>
+        <div class="box">
+            <img src="./Assets/image/images (6).jpg">
+                <h3>Chicken Chili</h3>
                 <P>Flavorful White Chicken Chili made with hearty beans, tender chicken, and a rich and creamy broth.</p>
-                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
         </div>
-        </div>
-        <div class="work">
+        <div class="box">
             <img src="./Assets/image/images (4).jpg">
-            <div class="layer">
-                <h2>kewa datshi momos</h2>
+                <h3>kewa datshi momos</h3>
                 <p>when we add any other vegetable such as mushrooms, potatoes or beans, we add less chillies</p>
-                    
-
-
-                </p>
-                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
         </div>
-        </div>
-    </div>   
+    </div>
+</div> 
 
 
-<!----contact---->
-<div id="contact">
+
+
+    <!----contact---->
+<div id="contact" id="Contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
+                <h2 class="sub-title">CONTACT ME</h2>
                 <p>Name: chhimi yangzom</p>
                 <p>Contact No: 17878808</p>
                 <p>Email address: chhimiyangzom01@gmail.com</p>
                 <p>Location: phuntsholing,town</p>
                 <div class="social-icons">
             </div>
-            <a href="images/my-cv.pdf" class="btn">Download cv</a>
+            <button type="submit" class="">Download</button>
         </div>
         <div class=" contact-righr">
             <form>
@@ -140,16 +142,7 @@
         </div>
     </div>
 </div>
-
-
-                
-            </div>
-            
-        </div>
-        <div class="contact-righr">
-            <form>
-        </div>
-    </div>
-</body>
-</html>
+<div class="copyright">
+    <p>copyright @chhimiyangzom.com</p>
+</div>
 
